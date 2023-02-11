@@ -342,6 +342,8 @@
             // 
             // monthCalendar1
             // 
+            this.monthCalendar1.BackColor = System.Drawing.Color.Yellow;
+            this.monthCalendar1.Enabled = false;
             this.monthCalendar1.Location = new System.Drawing.Point(1876, 39);
             this.monthCalendar1.MaxSelectionCount = 5;
             this.monthCalendar1.Name = "monthCalendar1";
@@ -404,7 +406,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2247, 809);
+            this.ClientSize = new System.Drawing.Size(2340, 799);
             this.Controls.Add(this.OrderBtn);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.numericUpDown1);

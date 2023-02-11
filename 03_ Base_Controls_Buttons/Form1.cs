@@ -15,7 +15,7 @@ namespace _03__Base_Controls_Buttons
         public Form1()
         {
             InitializeComponent();
-           
+          
         }
         private bool IsSelectedMeal()
         {
