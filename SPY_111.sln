@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_GuessNumber", "02_GuessN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_ Base_Controls_Buttons", "03_ Base_Controls_Buttons\03_ Base_Controls_Buttons.csproj", "{9A33BBB1-64A3-4E6C-82FA-14D3D8A3F670}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Controls_Indicators", "04_Controls_Indicators\04_Controls_Indicators.csproj", "{EE9B0CBF-DC11-4976-88D4-37263B668675}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Controls_Indicators", "04_Controls_Indicators\04_Controls_Indicators.csproj", "{EE9B0CBF-DC11-4976-88D4-37263B668675}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ToolTip", "05_ToolTip\05_ToolTip.csproj", "{3D33A82F-5AA7-44C4-A1B4-3E476E4E412A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_ToolTip", "05_ToolTip\05_ToolTip.csproj", "{3D33A82F-5AA7-44C4-A1B4-3E476E4E412A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_List", "06_List\06_List.csproj", "{65962220-CC09-40C9-91DB-564D615665B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3D33A82F-5AA7-44C4-A1B4-3E476E4E412A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D33A82F-5AA7-44C4-A1B4-3E476E4E412A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D33A82F-5AA7-44C4-A1B4-3E476E4E412A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65962220-CC09-40C9-91DB-564D615665B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65962220-CC09-40C9-91DB-564D615665B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65962220-CC09-40C9-91DB-564D615665B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65962220-CC09-40C9-91DB-564D615665B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
