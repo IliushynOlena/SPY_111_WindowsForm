@@ -17,11 +17,11 @@ namespace _06_List
         public Form1()
         {
             InitializeComponent();
+           
             orders.Add(new Order(random.Next(1000)));
             orders.Add(new Order(random.Next(1000)));
             orders.Add(new Order(random.Next(1000)));
             orders.Add(new Order(random.Next(1000)));
-
             //ordersComboBox.Items.AddRange(orders.ToArray());
             UpdateOrdersComboBox();
         }
@@ -29,6 +29,7 @@ namespace _06_List
         {
             ordersComboBox.DataSource = null;
             ordersComboBox.DataSource = orders;
+            ordersComboBox.SelectedItem = null;
         }
 
         private void showBtn_Click(object sender, EventArgs e)
