@@ -28,6 +28,7 @@ namespace _09_TreeViewListView
         {
             
             DirectoryInfo dir = new DirectoryInfo(dirPath);
+          
             foreach (var subDir in dir.GetDirectories())
             {
                 TreeNode newNode = new TreeNode(subDir.Name,0,2);
@@ -58,6 +59,7 @@ namespace _09_TreeViewListView
             foreach (var file in dir.GetFiles())
             {
                 ListViewItem item = new ListViewItem(file.Name);
+                item.Tag = file.FullName;   
                 item.SubItems.Add(file.Extension);
                 item.SubItems.Add(file.CreationTime.ToString());
                 //item.ImageIndex = 0;
@@ -65,6 +67,22 @@ namespace _09_TreeViewListView
             }
 
             
+        }
+        private void DeleteBtn_Click(object sender, EventArgs e)
+        {
+            FileInfo file;
+            foreach (ListViewItem item in fileList.Items)
+                if (item.Selected)
+                {
+                    file = new FileInfo(item.Tag.ToString());
+                    file.Delete();
+                    fileList.Items.Remove(item);
+
+                }
+            //
+            //dir.Delete();
+            //TreeView.Nodes.Clear();
+            //LoadDirectories(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\Directories", TreeView.Nodes);
         }
     }
 }

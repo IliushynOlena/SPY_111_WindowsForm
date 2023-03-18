@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_OtherDialogs", "08_Other
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_TreeViewListView", "09_TreeViewListView\09_TreeViewListView.csproj", "{B0F22640-3BEC-46C7-BD3D-00121913DF43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_RichTextBox", "10_RichTextBox\10_RichTextBox.csproj", "{0CABCBEB-C56F-45BD-9D9B-658F2DC04D94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_RichTextBox", "10_RichTextBox\10_RichTextBox.csproj", "{0CABCBEB-C56F-45BD-9D9B-658F2DC04D94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_TabControl", "11_TabControl\11_TabControl.csproj", "{8713444B-1196-43FF-BB9C-7EBA3A0B25B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_TabControl", "11_TabControl\11_TabControl.csproj", "{8713444B-1196-43FF-BB9C-7EBA3A0B25B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Drag_and_Drop", "12_Drag_and_Drop\12_Drag_and_Drop.csproj", "{A8D75DB3-52D0-423F-8CDE-324F5E60368A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{8713444B-1196-43FF-BB9C-7EBA3A0B25B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8713444B-1196-43FF-BB9C-7EBA3A0B25B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8713444B-1196-43FF-BB9C-7EBA3A0B25B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D75DB3-52D0-423F-8CDE-324F5E60368A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D75DB3-52D0-423F-8CDE-324F5E60368A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D75DB3-52D0-423F-8CDE-324F5E60368A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D75DB3-52D0-423F-8CDE-324F5E60368A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
